@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kak Da Mee Kwaicap — Full Website</title>
+<style>
+:root {
+    --brand-primary: #0b6b8a;
+    --brand-accent: #f6a623;
+    --bg: #f7f7f7;
+    --text: #22;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    scroll-behavior: smooth;
+}
+
+/* HEADER & NAVIGATION */
+header {
+    background: var(--brand-primary);
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: var(--brand-accent);
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* CENTERED IMAGE */
+.center-img {
+    display: block;
+    margin: 25px auto;
+    width: 80%;
+    max-width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* BUTTON */
+button {
+    background: var(--brand-accent);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #ffb84a;
+}
+
+/* PRODUCT BOX */
+.product-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 25px auto;
+    max-width: 380px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+.product-box:hover {
+    transform: scale(1.03);
+}
+
+.product-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* CONTACT FORM */
+form {
+    background: #CBA125;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 420px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    border: 0;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    background: var(--brand-primary);
+    color: white;
+    padding: 18px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+<nav>
+    <a href="#home">Home</a>
+	<a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+	<a href="#about"> Us</a>
+</nav>
+</header>
+
+<!-- HOME SECTION -->
+<section id="home">
+<h1>Welcome to Kak Da Kwaychap Mee Celup</h1>
+<p>Authentic Mee Celup served fresh with family recipes.</p>
+<img src="Screenshot 2025-12-17 162730.png" width="300" height="300" alt=""/> 
+<p><a href="#products"><button>View Menu</button></a></p>
+</section>
+
+<!-- ABOUT US SECTION -->
+<section id="about">
+<h2>About Kak Da Kwaychap Mee Celup</h2>
+<p>Kak Da Kwaychap Mee Celup is a family-run business since 2016, serving fresh, flavorful Mee Celup using traditional recipes passed down through generations.</p>
+<img src="Screenshot 2025-12-17 163433.png" width="400" height="300" alt=""/>
+<p>1980s Bunut Payong, Kota Bharu Kak Da opened a humble coconut-leaf stall. She cooked Kelantan-style broth from scratch to feed her neighbours and sells it at a low price to locals. Today, her daughter upholds the legacy. There are no shortcuts. It is just the same hearty, home-cooked flavour that has been warming community bellies for over 40 years.</p>
+<img src="Screenshot 2025-12-17 163630.png" width="400" height="300" alt=""/>
+<p>The majority of the customers are locals, but there are also many tourists who want to try Kak Da Kwaychap&nbsp; Mee Celup due to recommendations from social media or friends.</p>
+<img src="Screenshot 2025-12-17 163810.png" width="400" height="300" alt=""/>
+<p>Our Mee Celup features a rich and flavorful broth with the perfect blend of Thai and local Kelantanese tastes, available only in Kelantan.</p>
+<img src="Screenshot 2025-12-17 164151.png" width="400" height="300" alt=""/>
+<p>Kak Da Kwaychap Mee Celup wants to grow the business in the future by opening additional locations in other states. Additionally, in order bring in more clients and advertise the brand on social media, the company intends to launch new menu items. beside that, Kak Da Kwaychap Mee Celup wants to become one of Malaysia's most well-known mee celup brands and enhance customer service.</p>
+<p>Our mission is to provide authentic taste with high-quality ingredients and excellent customer service.</p>
+</section>
+
+<!-- PRODUCTS/ SERVICES SECTION -->
+<section id="products">
+<h2>Our Menu</h2>
+
+<div class="product-box">
+<img src="Screenshot 2025-12-17 153849.png" width="200" height="200" alt=""/>
+<h3>Signature Mee Celup</h3>
+<p>Rich broth with fresh noodles.</p>
+<strong>RM 9.90</strong>
+</div>
+
+<div class="product-box">
+<img src="Screenshot 2025-12-17 154504.png" width="200" height="200" alt=""/>
+<h3>Iced Lemon Tea</h3>
+<p>Refreshing homemade drink.</p>
+<strong>RM 3.50</strong>
+</div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Send us a message or find us on the map below.</p>
+
+<form id="contactForm">
+<label for="name">Name:</label>
+<input type="text" id="name" placeholder="Your Name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="Your Email" required>
+<label for="message">Message:</label>
+<textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+<button type="submit">Send</button>
+</form>
+	
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.5742447686366!2d102.40856967447682!3d5.77422693141775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b693c9677789f1%3A0xf42c63967ea4fa38!2sKak%20Da%20Mee%20Celup!5e0!3m2!1sen!2smy!4v1765957928636!5m2!1sen!2smy" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+© 2025 Kak Da Kwaychap Mee Celup — Tradisi & Rasa Asli
+</div>
+
+<script>
+document.getElementById("contactForm").onsubmit = function(e) {
+    e.preventDefault();
+    alert("Thank you! Your message has been received.");
+    this.reset();
+};
+</script>
+
+</body>
+</html>
